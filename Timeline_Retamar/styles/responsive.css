@@ -1,0 +1,32 @@
+@media screen and (min-width:0px) and (max-width:800px) {
+    .textoGanado {
+        font-size: 24px;
+    }
+
+    .carta {
+        width: 40px;
+        height: 67px;
+        font-size: 8px;
+        margin: 5px;
+    }
+
+    .textoYear {
+        top:64px;
+    }
+
+    .botonesMovimiento {
+        top: 6%;
+    }
+
+    .botonConfirmar, .botonMovimiento {
+        border: none;
+        font-size: 10px;
+    }
+
+    .puntuacion {
+        font-size: 18px;
+        top: 16px;
+        right: 31px;
+    }
+}
+    

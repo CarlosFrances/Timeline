@@ -1,0 +1,26 @@
+.botonConfirmar, .botonMovimiento {
+    /*position: absolute;*/
+    top: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.botonConfirmar:hover, .botonMovimiento:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.botonMovimiento {
+    position:  relative;
+}
+
+.botonesMovimiento {
+    position:absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+

@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    margin: 0;
+    user-select: none;
+}
+
+body, html, .contenedor {
+    height: 100%;
+}
+
+.contenedor {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+BUG -> una carta se adelanta, por la etiqueta p
+*/

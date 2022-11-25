@@ -1,0 +1,9 @@
+#lineaTiempo {
+    border: 2px solid #FFF;
+    position: absolute;
+    width:90%;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

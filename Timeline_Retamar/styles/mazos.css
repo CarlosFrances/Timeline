@@ -1,0 +1,40 @@
+#mazoUsuario {
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+#mazoTiempo {
+    width:80%;
+    text-align: center;
+}
+
+.textoGanado { 
+    margin: 0;
+    position: absolute;
+    width: inherit;
+    color:#FFFFFF;
+    font:50px Arial;
+}
+
+.inicioFin {
+    position: absolute;
+    color: #FFFFFF;
+    top: 46%;
+    transform: rotate(90deg);
+    /* transform: translate(10px, 10px); */
+    font: 50px Arial;
+}
+
+.textoYear {
+    top:100px;
+}
+
+.puntuacion {
+    position: absolute;
+    color: #FFFFFF;
+    font: 27px Arial;
+    top: 44px;
+    right: 58px;
+}
